@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Prak01 Tekweb // 1800016025</title>
+</head>
+<body>
+<form action="biodata.php" method="post">
+ <table>
+  <tr><td>NIM </td><td><input type="text" name="NIM"></td></tr>
+  <tr><td>Nama </td><td><input type="text" name="nama"></td></tr> 
+  <tr><td>Jenis Kelamin</td>
+    <td>
+      <input type="radio" name="jns_klmin" value="Laki-Laki"> Laki-Laki
+      <input type="radio" name="jns_klmin" value="Perempuan"> Perempuan
+    </td>
+  </tr>
+  <tr><td>Program Studi</td>
+   <td>
+    <select name ="programstudi">
+          <option value="Sistem Informasi">Sistem Informasi</option>
+          <option value="Fisika">Fisika</option>
+          <option value="Matematika">Matematika</option>
+          <option value="Biologi">Biologi</option>             
+   </select>
+   </td>
+  </tr>
+  <tr><td><input type="submit" value="Simpan" name="simpan"></td></tr>
+ </table>
+</form>
+</body>
+</html>
